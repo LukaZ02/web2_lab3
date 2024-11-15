@@ -1,0 +1,20 @@
+/* Stil za Canvas i osnovne elemente */
+body {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+#gameCanvas {
+    border: 10px solid white;
+    background-color: transparent;
+}
+
+@font-face {
+    font-family: 'ArcadeClassic';
+    src: url('ArcadeClassic.ttf') format('truetype');
+}
